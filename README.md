@@ -40,22 +40,20 @@ The model accurately replicates the spiking behavior of biological neurons. Belo
   <li><b>Reset Phase</b></li>
 </ul>
 
-
 ## Spiking & Reset:
 ![Result](https://github.com/user-attachments/assets/1c69dd69-2518-4f24-898d-5adbb88a48ae)
 
 ## Applications
-
 <ul>
-  <li>✅ Neuromorphic Computing</li>
-  <li>✅ Energy-efficient Neural Networks</li>
-  <li>✅ Brain-inspired AI Systems</li>
+  <li>Neuromorphic Computing</li>
+  <li>Energy-efficient Neural Networks</li>
+  <li>Brain-inspired AI Systems</li>
 </ul>
 
 ## How to Run the Simulation
 <ol>
-  <li>1️⃣ Open MATLAB & Simulink.</li>
-  <li>2️⃣ Load the provided .slx file.</li>
-  <li>3️⃣ Run the simulation and observe neuron spiking behavior.</li>
+  <li>Open MATLAB & Simulink.</li>
+  <li>Load the provided .slx file.</li>
+  <li>Run the simulation and observe neuron spiking behavior.</li>
 </ol>
 
