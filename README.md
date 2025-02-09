@@ -9,25 +9,29 @@ The circuit operates in different phases to mimic neural activity:
 1️⃣ Initial State
 A current source charges the capacitor.
 The memristor starts in its high-resistance state (HRS).
+<br>
 
 2️⃣ Charging Phase
 The capacitor voltage (Vc) increases exponentially.
 The memristor remains in HRS.
-
+<br>
 3️⃣ Threshold Detection
 When Vc reaches a threshold (Vth), the memristor switches to a low-resistance state (LRS).
-
+<br>
 4️⃣ Discharging Phase
 The capacitor rapidly discharges through the memristor and MOSFETs.
 The system generates a spike (firing event).
-
+<br>
 5️⃣ Reset Phase
 The circuit resets as the capacitor discharges to 0V, and the memristor returns to HRS.
 The process repeats for each spike.
+<br>
 
 #Simulation Tools
 MATLAB
+<br>
 Simulink
+<br>
 Simscape
 
 Simulation Results
@@ -38,12 +42,16 @@ Spiking & Reset:
 
 Applications
 ✅ Neuromorphic Computing
+<br>
 ✅ Energy-efficient Neural Networks
+<br>
 ✅ Brain-inspired AI Systems
 
 
 How to Run the Simulation
 1️⃣ Open MATLAB & Simulink.
+<br>
 2️⃣ Load the provided .slx file.
+<br>
 3️⃣ Run the simulation and observe neuron spiking behavior.
 
