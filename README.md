@@ -1,16 +1,15 @@
 
 Memristor-Based Leaky Integrate-and-Fire (LIF) Neuron Model
-#Overview
+<big>Overview<big/>
 This project implements a Leaky Integrate-and-Fire (LIF) neuron model using memristors in MATLAB/Simulink. The model replicates the spiking behavior of biological neurons while leveraging the memristor's non-volatile memory and analog resistance properties for neuromorphic computing.
 
-#Working Principle
+<big>#Working Principle<big/>
 The circuit operates in different phases to mimic neural activity:
 
 1️⃣ Initial State
 A current source charges the capacitor.
 The memristor starts in its high-resistance state (HRS).
 <br>
-
 2️⃣ Charging Phase
 The capacitor voltage (Vc) increases exponentially.
 The memristor remains in HRS.
@@ -25,15 +24,14 @@ The system generates a spike (firing event).
 5️⃣ Reset Phase
 The circuit resets as the capacitor discharges to 0V, and the memristor returns to HRS.
 The process repeats for each spike.
-<br>
-
+<br />
 #Simulation Tools
 MATLAB
-<br>
+<br />
 Simulink
-<br>
+<br />
 Simscape
-
+<br />
 Simulation Results
 The model accurately replicates the spiking behavior of biological neurons. Below are snapshots of key phases:
 
@@ -41,14 +39,16 @@ Spiking & Reset:
 ![Result](https://github.com/user-attachments/assets/1c69dd69-2518-4f24-898d-5adbb88a48ae)
 
 Applications
+
 ✅ Neuromorphic Computing
-<br>
+<br />
 ✅ Energy-efficient Neural Networks
-<br>
+<br />
 ✅ Brain-inspired AI Systems
 
 
 How to Run the Simulation
+
 1️⃣ Open MATLAB & Simulink.
 <br>
 2️⃣ Load the provided .slx file.
